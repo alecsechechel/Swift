@@ -11,5 +11,5 @@ import UIKit
 
 let kStoryboard = UIStoryboard(name: "Main", bundle: nil)
 let kUsernameKey = "admin"
-let kPasswordKey = "777"
-let kServiceName = "service"
+let kPasswordKey = "admin"
+let kServiceName = "autologin"

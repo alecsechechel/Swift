@@ -16,19 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-//        var initialViewController : UIViewController
-//        let items = Keychain(service: kServiceName).allKeys()
-//        
-//        if items.isEmpty {
-//            initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
-//            initialViewController = UINavigationController(rootViewController: initialViewController)
-//        } else {
-//            initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
-//        }
-//        
-//        self.window?.rootViewController = initialViewController
-//        self.window?.makeKeyAndVisible()
+        UINavigationBar.appearance().barTintColor = UIColor(red:0, green:0.63, blue:0.52, alpha:1)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
         
         return true
     }
