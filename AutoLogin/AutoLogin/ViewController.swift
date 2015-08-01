@@ -18,37 +18,26 @@ class ViewController: UIViewController {
     //MARK: UIViewController lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        let items = Keychain(service: kServiceName).allKeys()
+        if !items.isEmpty {
+            let vc = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
+            self.navigationController?.pushViewController(vc, animated: false)
+        }
     }
     
     //MARK: - Login
     @IBAction func login(sender: AnyObject) {
-        if checkLogin(userTextField.text, password: passwordTextField.text) {
+        if ((userTextField.text == kUsernameKey) && (passwordTextField.text == kPasswordKey)) {
             let keychain = Keychain(service: kServiceName)
             keychain[userTextField.text] = passwordTextField.text
             
-            printlnInfo()
             let vc = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
             self.navigationController?.pushViewController(vc, animated: true)
+        } else {
+            showErrorAller()
         }
     }
 
-    func printlnInfo() {
-        let items = Keychain(service: kServiceName).allItems()
-        let user = items[0]["key"] as? String
-        let password = items[0]["value"] as? String
-        
-        println("\(user) - \(password)")
-    }
-    
-    func checkLogin(username: String, password: String ) -> Bool {
-        if ((username == kUsernameKey) && (password == kPasswordKey)) {
-            return true
-        } else {
-            showErrorAller()
-            return false
-        }
-    }
-    
     func showErrorAller() {
         var alert = UIAlertView()
         alert.title = "Login Problem"
