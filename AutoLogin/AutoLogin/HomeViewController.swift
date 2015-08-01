@@ -20,9 +20,9 @@ class HomeViewController: UIViewController {
     
     // MARK: - Log out
     @IBAction func logout(sender: AnyObject) {
-        // delete Keychain
         let keychain = Keychain(service: kServiceName)
         keychain.removeAll()
+        
         let vc = kStoryboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
         let navigationController = UINavigationController(rootViewController: vc)
         self.navigationController?.popToRootViewControllerAnimated(true)

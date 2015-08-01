@@ -34,11 +34,12 @@ class ViewController: UIViewController {
             let vc = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
             self.navigationController?.pushViewController(vc, animated: true)
         } else {
-            showErrorAller()
+            showErrorAllert()
         }
     }
-
-    func showErrorAller() {
+    
+    // MARK: - Allert
+    func showErrorAllert() {
         var alert = UIAlertView()
         alert.title = "Login Problem"
         alert.message = "Wrong username or password."
