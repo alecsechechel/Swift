@@ -53,6 +53,11 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginButton" destination="cft-43-mBl" id="nI9-mf-tzE"/>
+                        <outlet property="passwordTextField" destination="N15-21-qZx" id="xXT-mv-ZBx"/>
+                        <outlet property="usetTextField" destination="vWb-dX-i1U" id="OG2-3O-2I5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
