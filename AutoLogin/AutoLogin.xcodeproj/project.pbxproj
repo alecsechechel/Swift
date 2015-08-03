@@ -10,6 +10,10 @@
 		840BB4B91B6F909A008323EA /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BB4B81B6F909A008323EA /* KeychainAccess.framework */; };
 		840BB4BB1B6F979B008323EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BA1B6F979B008323EA /* HomeViewController.swift */; };
 		840BB4BD1B6F9ED4008323EA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BC1B6F9ED4008323EA /* Constant.swift */; };
+		840BB4BE1B6FB284008323EA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BC1B6F9ED4008323EA /* Constant.swift */; };
+		840BB4CB1B6FB37C008323EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2244E1B6F6CF8004737B1 /* ViewController.swift */; };
+		840BB4CD1B6FB62A008323EA /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BB4CC1B6FB62A008323EA /* KeychainAccess.framework */; };
+		840BB4CE1B6FB6ED008323EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BA1B6F979B008323EA /* HomeViewController.swift */; };
 		84C2244D1B6F6CF8004737B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2244C1B6F6CF8004737B1 /* AppDelegate.swift */; };
 		84C2244F1B6F6CF8004737B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2244E1B6F6CF8004737B1 /* ViewController.swift */; };
 		84C224521B6F6CF8004737B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C224501B6F6CF8004737B1 /* Main.storyboard */; };
@@ -17,6 +21,7 @@
 		84C224571B6F6CF8004737B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C224551B6F6CF8004737B1 /* LaunchScreen.xib */; };
 		84C224631B6F6CF9004737B1 /* AutoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C224621B6F6CF9004737B1 /* AutoLoginTests.swift */; };
 		88408DD341987F275A422262 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDCF52707CACD86C36FEE8 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D1D5D18732CDE08DCCC49187 /* Pods_AutoLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414055FF95A2AAFEDC760786 /* Pods_AutoLoginTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +36,12 @@
 
 /* Begin PBXFileReference section */
 		05DAE0916C61B923DD9D694E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		414055FF95A2AAFEDC760786 /* Pods_AutoLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFDCF52707CACD86C36FEE8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840BB4B81B6F909A008323EA /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = "Pods/../build/Debug-iphoneos/Pods/KeychainAccess.framework"; sourceTree = "<group>"; };
 		840BB4BA1B6F979B008323EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		840BB4BC1B6F9ED4008323EA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		840BB4CC1B6FB62A008323EA /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = "Pods/../build/Debug-iphoneos/Pods/KeychainAccess.framework"; sourceTree = "<group>"; };
 		84C224471B6F6CF8004737B1 /* AutoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2244B1B6F6CF8004737B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C2244C1B6F6CF8004737B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +52,8 @@
 		84C2245C1B6F6CF9004737B1 /* AutoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C224611B6F6CF9004737B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C224621B6F6CF9004737B1 /* AutoLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginTests.swift; sourceTree = "<group>"; };
+		B515BDF1B52BFFFDD377D8F4 /* Pods-AutoLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8471F497EA230D6955652E8 /* Pods-AutoLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE8F775BFF668A794E6234E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840BB4CD1B6FB62A008323EA /* KeychainAccess.framework in Frameworks */,
+				D1D5D18732CDE08DCCC49187 /* Pods_AutoLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +84,8 @@
 			children = (
 				EE8F775BFF668A794E6234E0 /* Pods.debug.xcconfig */,
 				05DAE0916C61B923DD9D694E /* Pods.release.xcconfig */,
+				B515BDF1B52BFFFDD377D8F4 /* Pods-AutoLoginTests.debug.xcconfig */,
+				E8471F497EA230D6955652E8 /* Pods-AutoLoginTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -140,8 +153,10 @@
 		D10EDE543445E0A15C6ABBEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840BB4CC1B6FB62A008323EA /* KeychainAccess.framework */,
 				840BB4B81B6F909A008323EA /* KeychainAccess.framework */,
 				4CFDCF52707CACD86C36FEE8 /* Pods.framework */,
+				414055FF95A2AAFEDC760786 /* Pods_AutoLoginTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C224691B6F6CF9004737B1 /* Build configuration list for PBXNativeTarget "AutoLoginTests" */;
 			buildPhases = (
+				A269CCD0D944EACC8E16A5ED /* Check Pods Manifest.lock */,
 				84C224581B6F6CF9004737B1 /* Sources */,
 				84C224591B6F6CF9004737B1 /* Frameworks */,
 				84C2245A1B6F6CF9004737B1 /* Resources */,
+				9CD56D2BF4641A269BB50F44 /* Embed Pods Frameworks */,
+				C7C0B999D4534CCB360B5774 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +293,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9CD56D2BF4641A269BB50F44 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A269CCD0D944EACC8E16A5ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C0B999D4534CCB360B5774 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CB99C7953AEBD827107425A7 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,7 +371,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840BB4CB1B6FB37C008323EA /* ViewController.swift in Sources */,
 				84C224631B6F6CF9004737B1 /* AutoLoginTests.swift in Sources */,
+				840BB4BE1B6FB284008323EA /* Constant.swift in Sources */,
+				840BB4CE1B6FB6ED008323EA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,11 +521,13 @@
 		};
 		84C2246A1B6F6CF9004737B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B515BDF1B52BFFFDD377D8F4 /* Pods-AutoLoginTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -474,11 +542,13 @@
 		};
 		84C2246B1B6F6CF9004737B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8471F497EA230D6955652E8 /* Pods-AutoLoginTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
 				);
 				INFOPLIST_FILE = AutoLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -21,5 +21,6 @@ class HomeViewController: UIViewController {
     @IBAction func logout(sender: AnyObject) {
         let keychain = Keychain(service: kServiceName)
         keychain.removeAll()
+        self.navigationController?.popToRootViewControllerAnimated(true)
     }
 }

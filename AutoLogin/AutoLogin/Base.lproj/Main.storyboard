@@ -91,7 +91,6 @@
                                 <connections>
                                     <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lh6-GJ-eOg"/>
                                     <action selector="logout:" destination="RnJ-Ir-Zhf" eventType="touchUpInside" id="QZr-QH-gH5"/>
-                                    <segue destination="oOj-PK-cxF" kind="show" id="agE-k8-ysZ"/>
                                 </connections>
                             </button>
                         </subviews>

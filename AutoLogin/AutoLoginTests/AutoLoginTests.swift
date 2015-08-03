@@ -8,11 +8,23 @@
 
 import UIKit
 import XCTest
+import KeychainAccess
 
 class AutoLoginTests: XCTestCase {
     
+    var viewController: ViewController!
+    
     override func setUp() {
         super.setUp()
+        let keychain = Keychain(service: kServiceName)
+        keychain.removeAll()
+        
+        let navigationController = kStoryboard.instantiateInitialViewController() as! UINavigationController
+//        viewController = navigationController.topViewController as! ViewController
+        viewController = kStoryboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        
+        UIApplication.sharedApplication().keyWindow!.rootViewController = navigationController
+        NSRunLoop.mainRunLoop().runUntilDate(NSDate())
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -21,16 +33,12 @@ class AutoLoginTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+    func testSuccessLoginFunction() {
+        let correctUser = kUsernameKey
+        let correctPassword = kPasswordKey
+        let result = viewController.checkLogin(correctUser, password: correctPassword)
+        
+        XCTAssertTrue(result, "Error login")
     }
     
 }

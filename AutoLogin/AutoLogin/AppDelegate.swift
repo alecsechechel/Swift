@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if items.isEmpty {
             initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+            initialViewController = UINavigationController(rootViewController: initialViewController)
         } else {
             initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
         }

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-let kStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-let kUsernameKey = "alex"
+let kStoryboard = UIStoryboard(name: "Main", bundle: nil)
+let kUsernameKey = "admin"
 let kPasswordKey = "777"
 let kServiceName = "service"
