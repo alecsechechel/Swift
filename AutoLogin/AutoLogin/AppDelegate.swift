@@ -7,15 +7,28 @@
 //
 
 import UIKit
+import KeychainAccess
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        var initialViewController : UIViewController
+        let items = Keychain(service: kServiceName).allKeys()
+        
+        if items.isEmpty {
+            initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        } else {
+            initialViewController = kStoryboard.instantiateViewControllerWithIdentifier("HomeViewController") as! HomeViewController
+        }
+        
+        self.window?.rootViewController = initialViewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

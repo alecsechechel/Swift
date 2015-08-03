@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840BB4B91B6F909A008323EA /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840BB4B81B6F909A008323EA /* KeychainAccess.framework */; };
+		840BB4BB1B6F979B008323EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BA1B6F979B008323EA /* HomeViewController.swift */; };
+		840BB4BD1B6F9ED4008323EA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840BB4BC1B6F9ED4008323EA /* Constant.swift */; };
 		84C2244D1B6F6CF8004737B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2244C1B6F6CF8004737B1 /* AppDelegate.swift */; };
 		84C2244F1B6F6CF8004737B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2244E1B6F6CF8004737B1 /* ViewController.swift */; };
 		84C224521B6F6CF8004737B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C224501B6F6CF8004737B1 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 /* Begin PBXFileReference section */
 		05DAE0916C61B923DD9D694E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4CFDCF52707CACD86C36FEE8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840BB4B81B6F909A008323EA /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = "Pods/../build/Debug-iphoneos/Pods/KeychainAccess.framework"; sourceTree = "<group>"; };
+		840BB4BA1B6F979B008323EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		840BB4BC1B6F9ED4008323EA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		84C224471B6F6CF8004737B1 /* AutoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2244B1B6F6CF8004737B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C2244C1B6F6CF8004737B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840BB4B91B6F909A008323EA /* KeychainAccess.framework in Frameworks */,
 				88408DD341987F275A422262 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +102,8 @@
 			children = (
 				84C2244C1B6F6CF8004737B1 /* AppDelegate.swift */,
 				84C2244E1B6F6CF8004737B1 /* ViewController.swift */,
+				840BB4BA1B6F979B008323EA /* HomeViewController.swift */,
+				840BB4BC1B6F9ED4008323EA /* Constant.swift */,
 				84C224501B6F6CF8004737B1 /* Main.storyboard */,
 				84C224531B6F6CF8004737B1 /* Images.xcassets */,
 				84C224551B6F6CF8004737B1 /* LaunchScreen.xib */,
@@ -131,6 +140,7 @@
 		D10EDE543445E0A15C6ABBEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840BB4B81B6F909A008323EA /* KeychainAccess.framework */,
 				4CFDCF52707CACD86C36FEE8 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -289,6 +299,8 @@
 			files = (
 				84C2244F1B6F6CF8004737B1 /* ViewController.swift in Sources */,
 				84C2244D1B6F6CF8004737B1 /* AppDelegate.swift in Sources */,
+				840BB4BB1B6F979B008323EA /* HomeViewController.swift in Sources */,
+				840BB4BD1B6F9ED4008323EA /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,10 @@
 			baseConfigurationReference = EE8F775BFF668A794E6234E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+				);
 				INFOPLIST_FILE = AutoLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +443,10 @@
 			baseConfigurationReference = 05DAE0916C61B923DD9D694E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
+				);
 				INFOPLIST_FILE = AutoLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
