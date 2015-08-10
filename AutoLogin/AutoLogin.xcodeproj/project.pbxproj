@@ -211,11 +211,13 @@
 		84C2243F1B6F6CF8004737B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = iosDevelopment;
 				TargetAttributes = {
 					84C224461B6F6CF8004737B1 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3A8HNQGY2L;
 					};
 					84C2245B1B6F6CF9004737B1 = {
 						CreatedOnToolsVersion = 6.4;
@@ -494,6 +496,7 @@
 			baseConfigurationReference = EE8F775BFF668A794E6234E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",
@@ -509,6 +512,7 @@
 			baseConfigurationReference = 05DAE0916C61B923DD9D694E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods",

@@ -7,209 +7,241 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0500997CEFBA212BC2701B788A8ACE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB3320F03105D255BFF554191BF20A /* Foundation.framework */; };
-		30AAAAAF9909EE14D3086A233824F2E0 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8B535448D19F2BDA9914A2F3797A05 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51DDC706BAEBD55B05781650C51B32FF /* Pods-AutoLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E07F115E8D4DF5F4D1808D72750A912 /* Pods-AutoLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		538F94231C6DF6EC5086AA5EDA306E27 /* Pods-AutoLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CCF83C53A71B966A0908505F7A7FB /* Pods-AutoLoginTests-dummy.m */; };
-		9EC3969DA4E6FE6807D7CC06AB575EEA /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE8EFB82FB93C7D58A02F093812E8E6 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A201C2D5F053804815B5DCDCA7C6CDBC /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB62067859107CBE9CDA44E00534A92 /* Keychain.swift */; };
-		AFDCD0580475274CC7BEA93868254814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB3320F03105D255BFF554191BF20A /* Foundation.framework */; };
-		DB1C819D147704B78E715E67F69581F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB3320F03105D255BFF554191BF20A /* Foundation.framework */; };
-		DF3339ADB20032713213E67C5CBB30FD /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56387AB3EF0EA2484DFC38A0F0646B45 /* Pods-dummy.m */; };
-		E027F930B3A6342059B4767C009341D9 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2552A904296B30A1E0CF3E690D48A4 /* KeychainAccess-dummy.m */; };
+		14B88DF8621AE138BF8E7AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D01BFF7689D84A3143FD81B /* Foundation.framework */; };
+		324B05157E92313DC3C5AE0A /* Pods-AutoLoginTests-KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27161A95D5A382E865BD0C8E /* Pods-AutoLoginTests-KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E1C68834D6F99916D2FF806 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C8316A0A15B0648B108932 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708C174A1AF19BA447778B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D01BFF7689D84A3143FD81B /* Foundation.framework */; };
+		7F4A081E113B0EE20C0F2EEC /* Pods-AutoLoginTests-KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C383731681252DE19D586 /* Pods-AutoLoginTests-KeychainAccess-dummy.m */; };
+		864A9B28DBB2193E43AF6F19 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04862C5BD2A9CC7AE9AEB40F /* Pods-dummy.m */; };
+		96E05345D015A67A18F0FA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D01BFF7689D84A3143FD81B /* Foundation.framework */; };
+		9CF33BD1B55B8A0815DA99A5 /* Pods-KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3928E4BA7C29588E96F5554C /* Pods-KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C66123DC02DDE6D2B8A6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D01BFF7689D84A3143FD81B /* Foundation.framework */; };
+		C54697D48AE7D69C9980A432 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E24E77B264501C9975019F /* Keychain.swift */; };
+		D009F58F3FD2E6881C6AFA22 /* Pods-AutoLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F54DC677D2EA1C9DD3AD7 /* Pods-AutoLoginTests-dummy.m */; };
+		DB27EF96EF9923010D133BD7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E24E77B264501C9975019F /* Keychain.swift */; };
+		DBF47596C56F50D3D72FF23C /* Pods-KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1720E51B9325CE2F87B02777 /* Pods-KeychainAccess-dummy.m */; };
+		FAB85FE499E6B3A024B83BF0 /* Pods-AutoLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69527A0515AC6A23623C16D2 /* Pods-AutoLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B51F0800344D77D7A71FDF4F6D1A5FE /* PBXContainerItemProxy */ = {
+		73BF4B3420A0D7D59CB34FA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = ED2AD9BC4DD2FB6308D7C13F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD341B9F7681FB82DA682F4648CAB35B;
-			remoteInfo = KeychainAccess;
+			remoteGlobalIDString = 8E96F6488A19D3C90CA50F4A;
+			remoteInfo = "Pods-AutoLoginTests-KeychainAccess";
 		};
-		C842A966D200C26625BF8BC80E8932A5 /* PBXContainerItemProxy */ = {
+		EC24F4ED49183464AEAA3AA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = ED2AD9BC4DD2FB6308D7C13F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD341B9F7681FB82DA682F4648CAB35B;
-			remoteInfo = KeychainAccess;
+			remoteGlobalIDString = A16FB7CEAAA9CCD6A4F20748;
+			remoteInfo = "Pods-KeychainAccess";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B75CCC21C2279C980DB3F6CC106435A /* KeychainAccess-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KeychainAccess-Private.xcconfig"; sourceTree = "<group>"; };
-		1239D14AB6C34E8D187BEDC4BEB660E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		200C92E1B7E400428196B4F4E706F794 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
-		28261C3F8EFFD1D16BC36F3775E487FD /* Pods-AutoLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoLoginTests-resources.sh"; sourceTree = "<group>"; };
-		2AB4766C962E0EA61406EC09FA273E4F /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		2D23CCB3F520B8BD09B66801D00CC2DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F3C39C6B260A1CFDC41E183896009AF /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D57C250A375DCDB4794B0AA31E6B459 /* Pods-AutoLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoLoginTests-frameworks.sh"; sourceTree = "<group>"; };
-		3D9CCF83C53A71B966A0908505F7A7FB /* Pods-AutoLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoLoginTests-dummy.m"; sourceTree = "<group>"; };
-		475D06573F8679F84ED576E7209143E6 /* Pods-AutoLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		56387AB3EF0EA2484DFC38A0F0646B45 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		62974D0A3431CB43DFBBE9B8DD48A41F /* Pods_AutoLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E1E9672C3E644963ADD3D925CF76EE /* Pods-AutoLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AutoLoginTests.modulemap"; sourceTree = "<group>"; };
-		667DBA3CE4310797D5D19545B295490B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E01BD855E80C51851F1B84A9302A30C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED2F8C9D9388207D9D8FC761AD13566 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		8286941DBB2B7E69378A00E9C9034AF3 /* Pods-AutoLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DBF5D40B9869B7E37FD5AA3DDAFBE9A /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
-		9E07F115E8D4DF5F4D1808D72750A912 /* Pods-AutoLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLoginTests-umbrella.h"; sourceTree = "<group>"; };
-		A4AB3320F03105D255BFF554191BF20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AE81AF430C6308DD861910F947602C07 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		B82F388F8A217B4B2DA81AE308267A9F /* Pods-AutoLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests.release.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C302B6992ED38B14577348BBD7EF2E16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C51DA5078DF1268ADA1B20D369D3610D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB2552A904296B30A1E0CF3E690D48A4 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
-		CCB62067859107CBE9CDA44E00534A92 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
-		CFEAC1E7506BF6D212D8EBAF2ABFD36E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		D45C1343BB447DFE289EE97101AFE157 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
-		D63524451CE0DEE50B17210CF4076D0B /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		EB8B535448D19F2BDA9914A2F3797A05 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
-		EDE8EFB82FB93C7D58A02F093812E8E6 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		F3FFB9F06CD217574FC479FBC62C9306 /* Pods-AutoLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		00E2192A302AD2555A3B76D8 /* Pods-AutoLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AutoLoginTests.modulemap"; sourceTree = "<group>"; };
+		04862C5BD2A9CC7AE9AEB40F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0598CDB1470FBF2C1E17444D /* Pods-KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-KeychainAccess.modulemap"; path = "../Pods-KeychainAccess/Pods-KeychainAccess.modulemap"; sourceTree = "<group>"; };
+		1720E51B9325CE2F87B02777 /* Pods-KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-KeychainAccess-dummy.m"; path = "../Pods-KeychainAccess/Pods-KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		1C742A467998991073917897 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		20E24E77B264501C9975019F /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		23D85E39C8D8FFAC77B950E6 /* Pods-AutoLoginTests-KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLoginTests-KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		27161A95D5A382E865BD0C8E /* Pods-AutoLoginTests-KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLoginTests-KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		2E98E792C00DD6E577E6524C /* Pods_AutoLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		305EBC470DD53DADCD4BE484 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		3205DF4477769FB789154EBA /* Pods-AutoLoginTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLoginTests-environment.h"; sourceTree = "<group>"; };
+		3928E4BA7C29588E96F5554C /* Pods-KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KeychainAccess-umbrella.h"; path = "../Pods-KeychainAccess/Pods-KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		3A0EDD8B057E5FF7CD1408F8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D01BFF7689D84A3143FD81B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		420C383731681252DE19D586 /* Pods-AutoLoginTests-KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoLoginTests-KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		45BAFA1B394EDE6BD8492E34 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46800683A5B628A7F8F0924B /* Pods-AutoLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		496A7AEE5665890DEA59B1E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C76275A55E16629A692285D /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		4C8ED6F0B57DE964C7F3C6C3 /* Pods-AutoLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoLoginTests-frameworks.sh"; sourceTree = "<group>"; };
+		574EF797438049738911A653 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B61BDFC8D32C7EB75BA5F6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69527A0515AC6A23623C16D2 /* Pods-AutoLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLoginTests-umbrella.h"; sourceTree = "<group>"; };
+		69F3CC8DAC3E474E963A07A3 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		7665BF272DECF5404854A288 /* Pods-AutoLoginTests-KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests-KeychainAccess.xcconfig"; sourceTree = "<group>"; };
+		7B90078B48CE6656D787F564 /* Pods-KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-KeychainAccess-prefix.pch"; path = "../Pods-KeychainAccess/Pods-KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		7EF47813EF1618D41DE9F713 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB22D5880BF99541E627500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9418B23066356BD1752DF848 /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		9628216FF09CFCBD18282984 /* Pods-KeychainAccess-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAccess-Private.xcconfig"; path = "../Pods-KeychainAccess/Pods-KeychainAccess-Private.xcconfig"; sourceTree = "<group>"; };
+		98021E2BE46784122B6998CD /* Pods-AutoLoginTests-KeychainAccess-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests-KeychainAccess-Private.xcconfig"; sourceTree = "<group>"; };
+		9C8866CE5E2A921215DB4746 /* Pods-AutoLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0D704F69BADE66333C2EE94 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE57E81F5F693069910613A3 /* Pods-AutoLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoLoginTests-resources.sh"; sourceTree = "<group>"; };
+		B24EA9E6A24067656062A25A /* Pods-AutoLoginTests-KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AutoLoginTests-KeychainAccess.modulemap"; sourceTree = "<group>"; };
+		B7D3104D1EF42610CB3C6BA6 /* Pods-AutoLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5C8316A0A15B0648B108932 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		C61F54DC677D2EA1C9DD3AD7 /* Pods-AutoLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoLoginTests-dummy.m"; sourceTree = "<group>"; };
+		C7831001702930169FF7460A /* Pods-AutoLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9875D3B480C5B1F1B5500B2 /* Pods-KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAccess.xcconfig"; path = "../Pods-KeychainAccess/Pods-KeychainAccess.xcconfig"; sourceTree = "<group>"; };
+		D1126A46B124E02F665A8573 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E75B68468F493C976859BAA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-KeychainAccess/Info.plist"; sourceTree = "<group>"; };
+		FADAAC774693B796CD0D8DF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12C621D107C00395D5CD9111E49A1039 /* Frameworks */ = {
+		7E99CEB2BDA632796310004F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1C819D147704B78E715E67F69581F3 /* Foundation.framework in Frameworks */,
+				96E05345D015A67A18F0FA1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		523E875B9ABE65D83349C7AC58085FE1 /* Frameworks */ = {
+		81A606C8C9D6D6E1200C8039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0500997CEFBA212BC2701B788A8ACE3A /* Foundation.framework in Frameworks */,
+				708C174A1AF19BA447778B7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7602A4BEC2E4C31B084E834DFED7F7B /* Frameworks */ = {
+		D96100C1B70BEBA4143B0678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDCD0580475274CC7BEA93868254814 /* Foundation.framework in Frameworks */,
+				A0C66123DC02DDE6D2B8A6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD75BB65C2E972A599B6F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B88DF8621AE138BF8E7AE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23AC9E3B9488986A6E8425F6C37FCE72 /* Support Files */ = {
+		72F10D813106FEE1808EABD7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D23CCB3F520B8BD09B66801D00CC2DA /* Info.plist */,
-				D45C1343BB447DFE289EE97101AFE157 /* KeychainAccess.modulemap */,
-				200C92E1B7E400428196B4F4E706F794 /* KeychainAccess.xcconfig */,
-				0B75CCC21C2279C980DB3F6CC106435A /* KeychainAccess-Private.xcconfig */,
-				CB2552A904296B30A1E0CF3E690D48A4 /* KeychainAccess-dummy.m */,
-				9DBF5D40B9869B7E37FD5AA3DDAFBE9A /* KeychainAccess-prefix.pch */,
-				EB8B535448D19F2BDA9914A2F3797A05 /* KeychainAccess-umbrella.h */,
+				496A7AEE5665890DEA59B1E2 /* Info.plist */,
+				E75B68468F493C976859BAA1 /* Info.plist */,
+				B24EA9E6A24067656062A25A /* Pods-AutoLoginTests-KeychainAccess.modulemap */,
+				7665BF272DECF5404854A288 /* Pods-AutoLoginTests-KeychainAccess.xcconfig */,
+				98021E2BE46784122B6998CD /* Pods-AutoLoginTests-KeychainAccess-Private.xcconfig */,
+				420C383731681252DE19D586 /* Pods-AutoLoginTests-KeychainAccess-dummy.m */,
+				23D85E39C8D8FFAC77B950E6 /* Pods-AutoLoginTests-KeychainAccess-prefix.pch */,
+				27161A95D5A382E865BD0C8E /* Pods-AutoLoginTests-KeychainAccess-umbrella.h */,
+				0598CDB1470FBF2C1E17444D /* Pods-KeychainAccess.modulemap */,
+				C9875D3B480C5B1F1B5500B2 /* Pods-KeychainAccess.xcconfig */,
+				9628216FF09CFCBD18282984 /* Pods-KeychainAccess-Private.xcconfig */,
+				1720E51B9325CE2F87B02777 /* Pods-KeychainAccess-dummy.m */,
+				7B90078B48CE6656D787F564 /* Pods-KeychainAccess-prefix.pch */,
+				3928E4BA7C29588E96F5554C /* Pods-KeychainAccess-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KeychainAccess";
+			path = "../Target Support Files/Pods-AutoLoginTests-KeychainAccess";
 			sourceTree = "<group>";
 		};
-		2AB1A47AA2CBC2031F01A4135312B7D7 /* Pods */ = {
+		9782A9149DCB63A8B595ED51 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EEF4AEDEC7854FE2A7F98D0F77FE2B /* KeychainAccess */,
+				D66E0AA0642BDE2289190D63 /* KeychainAccess */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		46EEF4AEDEC7854FE2A7F98D0F77FE2B /* KeychainAccess */ = {
+		AE065C6639F0C3C12A37DC72 = {
 			isa = PBXGroup;
 			children = (
-				CCB62067859107CBE9CDA44E00534A92 /* Keychain.swift */,
-				23AC9E3B9488986A6E8425F6C37FCE72 /* Support Files */,
-			);
-			path = KeychainAccess;
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A4AB3320F03105D255BFF554191BF20A /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5E8E5ED5B618FB49B98E17D470A51965 /* Pods-AutoLoginTests */ = {
-			isa = PBXGroup;
-			children = (
-				C302B6992ED38B14577348BBD7EF2E16 /* Info.plist */,
-				63E1E9672C3E644963ADD3D925CF76EE /* Pods-AutoLoginTests.modulemap */,
-				8286941DBB2B7E69378A00E9C9034AF3 /* Pods-AutoLoginTests-acknowledgements.markdown */,
-				F3FFB9F06CD217574FC479FBC62C9306 /* Pods-AutoLoginTests-acknowledgements.plist */,
-				3D9CCF83C53A71B966A0908505F7A7FB /* Pods-AutoLoginTests-dummy.m */,
-				3D57C250A375DCDB4794B0AA31E6B459 /* Pods-AutoLoginTests-frameworks.sh */,
-				28261C3F8EFFD1D16BC36F3775E487FD /* Pods-AutoLoginTests-resources.sh */,
-				9E07F115E8D4DF5F4D1808D72750A912 /* Pods-AutoLoginTests-umbrella.h */,
-				475D06573F8679F84ED576E7209143E6 /* Pods-AutoLoginTests.debug.xcconfig */,
-				B82F388F8A217B4B2DA81AE308267A9F /* Pods-AutoLoginTests.release.xcconfig */,
-			);
-			name = "Pods-AutoLoginTests";
-			path = "Target Support Files/Pods-AutoLoginTests";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2AB1A47AA2CBC2031F01A4135312B7D7 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				8EC0A4AB2240A43EE0459937B1B6E6BA /* Targets Support Files */,
+				D1126A46B124E02F665A8573 /* Podfile */,
+				F522CF6E3E2828072B1A57D7 /* Frameworks */,
+				9782A9149DCB63A8B595ED51 /* Pods */,
+				FF8CB5541119C444BC699BF5 /* Products */,
+				E8F6C5028D8AC7EF4756FCB8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EC0A4AB2240A43EE0459937B1B6E6BA /* Targets Support Files */ = {
+		B6AB4B42E0B70F861CA6D555 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA624886A01053C91AE6ADFD58FB4B6D /* Pods */,
-				5E8E5ED5B618FB49B98E17D470A51965 /* Pods-AutoLoginTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA624886A01053C91AE6ADFD58FB4B6D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1239D14AB6C34E8D187BEDC4BEB660E4 /* Info.plist */,
-				AE81AF430C6308DD861910F947602C07 /* Pods.modulemap */,
-				667DBA3CE4310797D5D19545B295490B /* Pods-acknowledgements.markdown */,
-				C51DA5078DF1268ADA1B20D369D3610D /* Pods-acknowledgements.plist */,
-				56387AB3EF0EA2484DFC38A0F0646B45 /* Pods-dummy.m */,
-				D63524451CE0DEE50B17210CF4076D0B /* Pods-frameworks.sh */,
-				2AB4766C962E0EA61406EC09FA273E4F /* Pods-resources.sh */,
-				EDE8EFB82FB93C7D58A02F093812E8E6 /* Pods-umbrella.h */,
-				CFEAC1E7506BF6D212D8EBAF2ABFD36E /* Pods.debug.xcconfig */,
-				7ED2F8C9D9388207D9D8FC761AD13566 /* Pods.release.xcconfig */,
+				7EF47813EF1618D41DE9F713 /* Info.plist */,
+				9418B23066356BD1752DF848 /* Pods.modulemap */,
+				A0D704F69BADE66333C2EE94 /* Pods-acknowledgements.markdown */,
+				3A0EDD8B057E5FF7CD1408F8 /* Pods-acknowledgements.plist */,
+				04862C5BD2A9CC7AE9AEB40F /* Pods-dummy.m */,
+				69F3CC8DAC3E474E963A07A3 /* Pods-environment.h */,
+				4C76275A55E16629A692285D /* Pods-frameworks.sh */,
+				305EBC470DD53DADCD4BE484 /* Pods-resources.sh */,
+				C5C8316A0A15B0648B108932 /* Pods-umbrella.h */,
+				FADAAC774693B796CD0D8DF3 /* Pods.debug.xcconfig */,
+				1C742A467998991073917897 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		C94580D96401C9C9607EB453 /* Pods-AutoLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				2F3C39C6B260A1CFDC41E183896009AF /* KeychainAccess.framework */,
-				7E01BD855E80C51851F1B84A9302A30C /* Pods.framework */,
-				62974D0A3431CB43DFBBE9B8DD48A41F /* Pods_AutoLoginTests.framework */,
+				8AB22D5880BF99541E627500 /* Info.plist */,
+				00E2192A302AD2555A3B76D8 /* Pods-AutoLoginTests.modulemap */,
+				9C8866CE5E2A921215DB4746 /* Pods-AutoLoginTests-acknowledgements.markdown */,
+				B7D3104D1EF42610CB3C6BA6 /* Pods-AutoLoginTests-acknowledgements.plist */,
+				C61F54DC677D2EA1C9DD3AD7 /* Pods-AutoLoginTests-dummy.m */,
+				3205DF4477769FB789154EBA /* Pods-AutoLoginTests-environment.h */,
+				4C8ED6F0B57DE964C7F3C6C3 /* Pods-AutoLoginTests-frameworks.sh */,
+				AE57E81F5F693069910613A3 /* Pods-AutoLoginTests-resources.sh */,
+				69527A0515AC6A23623C16D2 /* Pods-AutoLoginTests-umbrella.h */,
+				C7831001702930169FF7460A /* Pods-AutoLoginTests.debug.xcconfig */,
+				46800683A5B628A7F8F0924B /* Pods-AutoLoginTests.release.xcconfig */,
+			);
+			name = "Pods-AutoLoginTests";
+			path = "Target Support Files/Pods-AutoLoginTests";
+			sourceTree = "<group>";
+		};
+		D66E0AA0642BDE2289190D63 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				20E24E77B264501C9975019F /* Keychain.swift */,
+				72F10D813106FEE1808EABD7 /* Support Files */,
+			);
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		E18098E22999587FFA7C03DC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D01BFF7689D84A3143FD81B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8F6C5028D8AC7EF4756FCB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB4B42E0B70F861CA6D555 /* Pods */,
+				C94580D96401C9C9607EB453 /* Pods-AutoLoginTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F522CF6E3E2828072B1A57D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E18098E22999587FFA7C03DC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8CB5541119C444BC699BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574EF797438049738911A653 /* KeychainAccess.framework */,
+				45BAFA1B394EDE6BD8492E34 /* KeychainAccess.framework */,
+				60B61BDFC8D32C7EB75BA5F6 /* Pods.framework */,
+				2E98E792C00DD6E577E6524C /* Pods_AutoLoginTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,161 +249,307 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3753C3208F246BE1F7963CF3BA7432DB /* Headers */ = {
+		080F6E6EC74B516AB3F970A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51DDC706BAEBD55B05781650C51B32FF /* Pods-AutoLoginTests-umbrella.h in Headers */,
+				4E1C68834D6F99916D2FF806 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8061E7ECB86B82AC884ADCD4B134E3E2 /* Headers */ = {
+		880E90CB2E4710E1336A5D58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC3969DA4E6FE6807D7CC06AB575EEA /* Pods-umbrella.h in Headers */,
+				9CF33BD1B55B8A0815DA99A5 /* Pods-KeychainAccess-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C024B6BFF8D06D02FF968C0876E7E0A9 /* Headers */ = {
+		C1BDA173F641DE9EA72EFBA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AAAAAF9909EE14D3086A233824F2E0 /* KeychainAccess-umbrella.h in Headers */,
+				324B05157E92313DC3C5AE0A /* Pods-AutoLoginTests-KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F522EF3DE2C5486D75A43593 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB85FE499E6B3A024B83BF0 /* Pods-AutoLoginTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E4642711B8B182299866616B0C712BD /* Pods */ = {
+		0050E186CEC33E5DA475312A /* Pods-AutoLoginTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58303F472ABD5D3C704BFE0F7D669F2D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A8E1F147B5D18E18011393CA /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests" */;
 			buildPhases = (
-				A1241F0E6D6E4832F383235C5B703E72 /* Sources */,
-				A7602A4BEC2E4C31B084E834DFED7F7B /* Frameworks */,
-				8061E7ECB86B82AC884ADCD4B134E3E2 /* Headers */,
+				C56DE9A689573F400E748B12 /* Sources */,
+				EAD75BB65C2E972A599B6F1F /* Frameworks */,
+				F522EF3DE2C5486D75A43593 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D23592C2A43B54D674B9FEA88C2208A0 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 7E01BD855E80C51851F1B84A9302A30C /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD341B9F7681FB82DA682F4648CAB35B /* KeychainAccess */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F37462FE04BDF656B6DA5D2F098453E /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
-			buildPhases = (
-				9CEBE31301C69035C454F01D72FDECDD /* Sources */,
-				12C621D107C00395D5CD9111E49A1039 /* Frameworks */,
-				C024B6BFF8D06D02FF968C0876E7E0A9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KeychainAccess;
-			productName = KeychainAccess;
-			productReference = 2F3C39C6B260A1CFDC41E183896009AF /* KeychainAccess.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EE8CF0C2E425F0C3A1D6CFF893AD29F5 /* Pods-AutoLoginTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF51E27B606A096A5F763D3F61F30B6D /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests" */;
-			buildPhases = (
-				460BB376EA05678FD791D53949800D2E /* Sources */,
-				523E875B9ABE65D83349C7AC58085FE1 /* Frameworks */,
-				3753C3208F246BE1F7963CF3BA7432DB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CA5577CEAAA119CA245372A16B408C4 /* PBXTargetDependency */,
+				7F5D8E68A73D4A194190074A /* PBXTargetDependency */,
 			);
 			name = "Pods-AutoLoginTests";
 			productName = "Pods-AutoLoginTests";
-			productReference = 62974D0A3431CB43DFBBE9B8DD48A41F /* Pods_AutoLoginTests.framework */;
+			productReference = 2E98E792C00DD6E577E6524C /* Pods_AutoLoginTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DCA0CF44174D5A7280B7621 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689A344C2E89239AA559F0D4 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				87A51E8EC6C93804D9982890 /* Sources */,
+				81A606C8C9D6D6E1200C8039 /* Frameworks */,
+				080F6E6EC74B516AB3F970A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F6815EC97782C4C915DF3D1 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 60B61BDFC8D32C7EB75BA5F6 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E96F6488A19D3C90CA50F4A /* Pods-AutoLoginTests-KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18493788D7C4F277F465CF46 /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests-KeychainAccess" */;
+			buildPhases = (
+				6F3086839C948DA262C84CEB /* Sources */,
+				D96100C1B70BEBA4143B0678 /* Frameworks */,
+				C1BDA173F641DE9EA72EFBA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AutoLoginTests-KeychainAccess";
+			productName = "Pods-AutoLoginTests-KeychainAccess";
+			productReference = 574EF797438049738911A653 /* KeychainAccess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A16FB7CEAAA9CCD6A4F20748 /* Pods-KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780F5DB8F036093EAC9F0342 /* Build configuration list for PBXNativeTarget "Pods-KeychainAccess" */;
+			buildPhases = (
+				A63B6071867C07DB13FB42DC /* Sources */,
+				7E99CEB2BDA632796310004F /* Frameworks */,
+				880E90CB2E4710E1336A5D58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KeychainAccess";
+			productName = "Pods-KeychainAccess";
+			productReference = 45BAFA1B394EDE6BD8492E34 /* KeychainAccess.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		ED2AD9BC4DD2FB6308D7C13F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A4A8986102191A4156EECA24 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			mainGroup = AE065C6639F0C3C12A37DC72;
+			productRefGroup = FF8CB5541119C444BC699BF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD341B9F7681FB82DA682F4648CAB35B /* KeychainAccess */,
-				5E4642711B8B182299866616B0C712BD /* Pods */,
-				EE8CF0C2E425F0C3A1D6CFF893AD29F5 /* Pods-AutoLoginTests */,
+				2DCA0CF44174D5A7280B7621 /* Pods */,
+				0050E186CEC33E5DA475312A /* Pods-AutoLoginTests */,
+				8E96F6488A19D3C90CA50F4A /* Pods-AutoLoginTests-KeychainAccess */,
+				A16FB7CEAAA9CCD6A4F20748 /* Pods-KeychainAccess */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		460BB376EA05678FD791D53949800D2E /* Sources */ = {
+		6F3086839C948DA262C84CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538F94231C6DF6EC5086AA5EDA306E27 /* Pods-AutoLoginTests-dummy.m in Sources */,
+				DB27EF96EF9923010D133BD7 /* Keychain.swift in Sources */,
+				7F4A081E113B0EE20C0F2EEC /* Pods-AutoLoginTests-KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CEBE31301C69035C454F01D72FDECDD /* Sources */ = {
+		87A51E8EC6C93804D9982890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A201C2D5F053804815B5DCDCA7C6CDBC /* Keychain.swift in Sources */,
-				E027F930B3A6342059B4767C009341D9 /* KeychainAccess-dummy.m in Sources */,
+				864A9B28DBB2193E43AF6F19 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1241F0E6D6E4832F383235C5B703E72 /* Sources */ = {
+		A63B6071867C07DB13FB42DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3339ADB20032713213E67C5CBB30FD /* Pods-dummy.m in Sources */,
+				C54697D48AE7D69C9980A432 /* Keychain.swift in Sources */,
+				DBF47596C56F50D3D72FF23C /* Pods-KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56DE9A689573F400E748B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D009F58F3FD2E6881C6AFA22 /* Pods-AutoLoginTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CA5577CEAAA119CA245372A16B408C4 /* PBXTargetDependency */ = {
+		4F6815EC97782C4C915DF3D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KeychainAccess;
-			target = DD341B9F7681FB82DA682F4648CAB35B /* KeychainAccess */;
-			targetProxy = C842A966D200C26625BF8BC80E8932A5 /* PBXContainerItemProxy */;
+			name = "Pods-KeychainAccess";
+			target = A16FB7CEAAA9CCD6A4F20748 /* Pods-KeychainAccess */;
+			targetProxy = EC24F4ED49183464AEAA3AA0 /* PBXContainerItemProxy */;
 		};
-		D23592C2A43B54D674B9FEA88C2208A0 /* PBXTargetDependency */ = {
+		7F5D8E68A73D4A194190074A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KeychainAccess;
-			target = DD341B9F7681FB82DA682F4648CAB35B /* KeychainAccess */;
-			targetProxy = 2B51F0800344D77D7A71FDF4F6D1A5FE /* PBXContainerItemProxy */;
+			name = "Pods-AutoLoginTests-KeychainAccess";
+			target = 8E96F6488A19D3C90CA50F4A /* Pods-AutoLoginTests-KeychainAccess */;
+			targetProxy = 73BF4B3420A0D7D59CB34FA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2381DB852092DEB1AEAC58BB1B8D9C84 /* Debug */ = {
+		252DA227E32325D0642462B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 475D06573F8679F84ED576E7209143E6 /* Pods-AutoLoginTests.debug.xcconfig */;
+			baseConfigurationReference = 9628216FF09CFCBD18282984 /* Pods-KeychainAccess-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeychainAccess/Pods-KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KeychainAccess/Pods-KeychainAccess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2787B5AE0EFB91DACED3DFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C742A467998991073917897 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		674DEFCF7172F06C748E2807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98021E2BE46784122B6998CD /* Pods-AutoLoginTests-KeychainAccess-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Pods-AutoLoginTests-KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Pods-AutoLoginTests-KeychainAccess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69E36447D8CBBE70DA55D4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46800683A5B628A7F8F0924B /* Pods-AutoLoginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AutoLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		809B92A8A78ABBF7A402628D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7831001702930169FF7460A /* Pods-AutoLoginTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -399,91 +577,7 @@
 			};
 			name = Debug;
 		};
-		42671F6A3BAEB3D834B8B4FCA2CC2F73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B82F388F8A217B4B2DA81AE308267A9F /* Pods-AutoLoginTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AutoLoginTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AutoLoginTests/Pods-AutoLoginTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AutoLoginTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B7DDFC88F5AC28646FD81A491134AB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B75CCC21C2279C980DB3F6CC106435A /* KeychainAccess-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.2.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		82886849A23065D7AA44638438B01B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B75CCC21C2279C980DB3F6CC106435A /* KeychainAccess-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.2.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		93DE91145A1B5ACB594790D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -522,38 +616,9 @@
 			};
 			name = Debug;
 		};
-		BB95C9993519010127024BF996D7EEF8 /* Release */ = {
+		9AD8300E09726604C8F11676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ED2F8C9D9388207D9D8FC761AD13566 /* Pods.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F838813FCD4DA18D921F3EB65B3DCF5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFEAC1E7506BF6D212D8EBAF2ABFD36E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FADAAC774693B796CD0D8DF3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -581,7 +646,63 @@
 			};
 			name = Debug;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		AD5D1E6D95770FE4E1CF665F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98021E2BE46784122B6998CD /* Pods-AutoLoginTests-KeychainAccess-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Pods-AutoLoginTests-KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoLoginTests-KeychainAccess/Pods-AutoLoginTests-KeychainAccess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB8143CB10BF1153841C5EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9628216FF09CFCBD18282984 /* Pods-KeychainAccess-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KeychainAccess/Pods-KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-KeychainAccess/Pods-KeychainAccess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E039F4F142AA02E2C36B9A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,43 +739,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		18493788D7C4F277F465CF46 /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests-KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				AD5D1E6D95770FE4E1CF665F /* Debug */,
+				674DEFCF7172F06C748E2807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58303F472ABD5D3C704BFE0F7D669F2D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		689A344C2E89239AA559F0D4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F838813FCD4DA18D921F3EB65B3DCF5E /* Debug */,
-				BB95C9993519010127024BF996D7EEF8 /* Release */,
+				9AD8300E09726604C8F11676 /* Debug */,
+				2787B5AE0EFB91DACED3DFD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F37462FE04BDF656B6DA5D2F098453E /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+		780F5DB8F036093EAC9F0342 /* Build configuration list for PBXNativeTarget "Pods-KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B7DDFC88F5AC28646FD81A491134AB7 /* Debug */,
-				82886849A23065D7AA44638438B01B0C /* Release */,
+				DB8143CB10BF1153841C5EB9 /* Debug */,
+				252DA227E32325D0642462B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF51E27B606A096A5F763D3F61F30B6D /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests" */ = {
+		A4A8986102191A4156EECA24 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2381DB852092DEB1AEAC58BB1B8D9C84 /* Debug */,
-				42671F6A3BAEB3D834B8B4FCA2CC2F73 /* Release */,
+				93DE91145A1B5ACB594790D6 /* Debug */,
+				E039F4F142AA02E2C36B9A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8E1F147B5D18E18011393CA /* Build configuration list for PBXNativeTarget "Pods-AutoLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809B92A8A78ABBF7A402628D /* Debug */,
+				69E36447D8CBBE70DA55D4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = ED2AD9BC4DD2FB6308D7C13F /* Project object */;
 }
