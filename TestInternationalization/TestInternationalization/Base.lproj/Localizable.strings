@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TestInternationalization
+
+  Created by admin on 22.10.15.
+  Copyright © 2015 iosOleksii. All rights reserved.
+*/
+
+GOOD_MORNING = "Good Morning";

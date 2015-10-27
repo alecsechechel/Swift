@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestInternationalization" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHw-tv-omw">
+                                <rect key="frame" x="16" y="323" width="343" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xK0-4g-llr">
+                                <rect key="frame" x="16" y="384" width="343" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="KHw-tv-omw" secondAttribute="leading" id="HmL-Qs-wyj"/>
+                            <constraint firstItem="KHw-tv-omw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N8V-j5-HbF"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="xK0-4g-llr" secondAttribute="leading" id="PMA-c4-roM"/>
+                            <constraint firstItem="KHw-tv-omw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="303" id="TvJ-cJ-yi4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xK0-4g-llr" secondAttribute="trailing" id="VHI-fh-VjO"/>
+                            <constraint firstItem="xK0-4g-llr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xiv-Y2-YXh"/>
+                            <constraint firstItem="xK0-4g-llr" firstAttribute="top" secondItem="KHw-tv-omw" secondAttribute="bottom" constant="40" id="ccL-eh-XAC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KHw-tv-omw" secondAttribute="trailing" id="oaD-4h-tz9"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="countryLabel" destination="KHw-tv-omw" id="V5c-Rh-0Xo"/>
+                        <outlet property="testLabel" destination="xK0-4g-llr" id="9eP-Qq-p29"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="357.5"/>
+        </scene>
+    </scenes>
+</document>
