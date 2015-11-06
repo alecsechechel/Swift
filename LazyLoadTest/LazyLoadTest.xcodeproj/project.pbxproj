@@ -93,6 +93,58 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		8460C2721BECAD120035D86B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8460C26C1BEC9A580035D86B /* CustomInfiniteIndicator.swift */,
+				8460C2701BEC9DE90035D86B /* UIApplication+NetworkIndicator.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8460C2731BECAD2D0035D86B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				847647691BE766300017229D /* AppDelegate.swift */,
+				847647751BE766300017229D /* Info.plist */,
+				8460C2681BEC99790035D86B /* LazyLoadTest-Bridging-Header.h */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		8460C2741BECAD410035D86B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				847647701BE766300017229D /* Assets.xcassets */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		8460C2751BECAD550035D86B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8476476B1BE766300017229D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8460C2761BECAD5E0035D86B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8476476D1BE766300017229D /* Main.storyboard */,
+				847647721BE766300017229D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8460C2771BECAD6B0035D86B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8460C26E1BEC9A7E0035D86B /* StoryModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		8476475D1BE766300017229D = {
 			isa = PBXGroup;
 			children = (
@@ -116,17 +168,13 @@
 		847647681BE766300017229D /* LazyLoadTest */ = {
 			isa = PBXGroup;
 			children = (
+				8460C2771BECAD6B0035D86B /* Model */,
+				8460C2761BECAD5E0035D86B /* View */,
+				8460C2751BECAD550035D86B /* Controller */,
+				8460C2741BECAD410035D86B /* Source */,
+				8460C2731BECAD2D0035D86B /* Support */,
+				8460C2721BECAD120035D86B /* Helpers */,
 				8460C2671BEC99580035D86B /* Framework */,
-				8460C26C1BEC9A580035D86B /* CustomInfiniteIndicator.swift */,
-				847647691BE766300017229D /* AppDelegate.swift */,
-				8476476B1BE766300017229D /* ViewController.swift */,
-				8460C26E1BEC9A7E0035D86B /* StoryModel.swift */,
-				8460C2701BEC9DE90035D86B /* UIApplication+NetworkIndicator.swift */,
-				8476476D1BE766300017229D /* Main.storyboard */,
-				847647701BE766300017229D /* Assets.xcassets */,
-				847647721BE766300017229D /* LaunchScreen.storyboard */,
-				847647751BE766300017229D /* Info.plist */,
-				8460C2681BEC99790035D86B /* LazyLoadTest-Bridging-Header.h */,
 			);
 			path = LazyLoadTest;
 			sourceTree = "<group>";
